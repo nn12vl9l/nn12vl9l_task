@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.button-group {
+    display: flex;
+}
+
+.tasks {
+    display: flex;
+}
+
+.tasks-link {
+    padding-right: 10px;
+}
+
+label {
+    display: block;
+}
