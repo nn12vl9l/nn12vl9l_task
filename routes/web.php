@@ -15,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [App\Http\Controllers\TaskController::class]);
+Route::get('/', function () {
+    return view('welcome');
+});
+
+// Route::get('/', [App\Http\Controllers\TaskController::class]);
 
 Route::resource('tasks', App\Http\Controllers\TaskController::class);
